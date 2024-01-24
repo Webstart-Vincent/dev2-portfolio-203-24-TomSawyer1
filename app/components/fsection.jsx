@@ -9,7 +9,7 @@ const Fsection = () => {
         
       
         <h1 className="font-sans text-white mb-4 text-4xl sm:text-5xl lg:text-6xl">
-           Salut c'est Thomas
+           Salut c est Thomas
            </h1>
 
         <p className='text-[#ADB7BE] text-base sm:text-lg  mb-6 lg:text-xl'>
