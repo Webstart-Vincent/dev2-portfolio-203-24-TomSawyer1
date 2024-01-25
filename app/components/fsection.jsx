@@ -1,5 +1,8 @@
+"use client"
+
 import React from 'react';
 import Image from 'next/image';
+import { TypeAnimation } from 'react-type-animation';
 
 const Fsection = () => {
   return (
@@ -9,8 +12,26 @@ const Fsection = () => {
         
       
         <h1 className="font-sans text-white mb-4 text-4xl sm:text-5xl lg:text-6xl">
-           Salut c est Thomas
+           Salut c'est <span className='text-transparent bg-clip-text bg-gradient-to-br from-blue-400 via-blue-800 to-red-500'>Thomas</span>
+
+            <br/>
+           <TypeAnimation
+        sequence={[
+          "Web developer",
+          1000, // Temps en seconde
+          "Student",
+          1000,
+          "Owner of BMW M3",
+          1000,
+        ]}   
+        wrapper='span'
+        speed={50}
+        repeat={Infinity}
+        />
+
            </h1>
+
+        
 
         <p className='text-[#ADB7BE] text-base sm:text-lg  mb-6 lg:text-xl'>
           Lorem ipsum dolor sit amet consectetur, adipisicing elit.
@@ -22,8 +43,8 @@ const Fsection = () => {
         <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-200 text-white'>
             Envoi 
           </button>
-          <button className='px-6 py-3 w-full sm:w-fit rounded-full bg-transparent hover:bg-slate-800 text-white border border-white mt-3'>
-            Mon CV
+          <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-blue-800 to-red-500  hover:bg-slate-800 text-white  mt-3'>
+           <span className=' block bg-black hover:bg-slate-800 rounded-full py-3 px-2'>Mon CV</span> 
           </button>
         </div>
         </div>
