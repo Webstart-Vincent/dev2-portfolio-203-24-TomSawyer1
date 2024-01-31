@@ -21,7 +21,6 @@ const navlinks = [
   {
     title:"Contact",
     path: "#contact",
-
   }
 ]
 
