@@ -21,7 +21,7 @@ const Fsection = () => {
           1000, // Temps en seconde
           "Etudiant",
           1000,
-          "Propriétaire d'une BMW M3",
+          "BMW M3",
           1000,
         ]}   
         wrapper='span'
