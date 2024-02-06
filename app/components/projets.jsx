@@ -2,8 +2,8 @@ import React from 'react'
 
 function Projets() {
   return (
-    <div className='grid grid-rows-2 gap-4'>
-      <div className=''></div>
+    <div className='grid grid-rows-1 gap-4'>
+      
 
       <div className='flex flex-nowrap'>
         

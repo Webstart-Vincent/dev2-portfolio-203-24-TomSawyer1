@@ -31,8 +31,8 @@ function Psection() {
             
         <div className='flex flex-wrap place-content-center my-10 gap-4'>
             <div className='rounded w-36 h-20 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800'></div>
-            <div className='rounded w-36 h-20 bg-black'></div>
-            <div className='rounded w-36 h-20 bg-black'></div>
+            <div className='rounded w-36 h-20 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800'></div>
+            <div className='rounded w-36 h-20 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800'></div>
             
         </div>
         </div>
