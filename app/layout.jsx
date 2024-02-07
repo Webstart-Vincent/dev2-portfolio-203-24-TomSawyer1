@@ -1,7 +1,7 @@
 import { Inter } from 'next/font/google'
 import Head from 'next/head'
 import './globals.css'
-import Provider from '@/components/provider'
+import Provider from '@/app/components/provider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
@@ -24,8 +24,8 @@ export default function RootLayout({ children }) {
         <meta name="keywords" content={metadata.keywords} />
         <meta property="og:title" content={metadata.title} />
         <meta property="og:description" content={metadata.description} />
-       {/* <meta property="og:image" content={metadata.image} />
-        <meta property="og:url" content={metadata.url} /> */}
+        <meta property="og:image" content={metadata.image} />
+        <meta property="og:url" content={metadata.url} />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <html lang="fr-FR">
