@@ -44,9 +44,28 @@ function Psection() {
              
             </div>
             </Link>
-            <div className='rounded w-36 h-20 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800'></div>
-            <div className='rounded w-36 h-20 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800'></div>
-            
+            <Link href="https://thomas-film-tmdb.netlify.app/">
+            <div className='relative place-items-center w-36 h-20 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800'>
+            <Image
+              src="/images/tmdb.png"
+              alt="film"
+              width={100}
+              height={100}
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
+              />
+            </div>
+            </Link>
+            <Link href="https://weather-meteo.netlify.app/">
+            <div className='relative place-items-center w-36 h-20 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800'>
+              <Image
+              src="/images/ter2.png"
+              alt="terre"
+              width={100}
+              height={100}
+              className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"     
+             />
+            </div>
+            </Link>
         </div>
         </div>
     </div>
