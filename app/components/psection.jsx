@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image';
+import Link from 'next/link';
 
 function Psection() {
   return (
@@ -31,6 +32,7 @@ function Psection() {
             <h1 className="font-sans  text-white mb-4 text-center text-3xl sm:hidden"> Mes Projets.</h1>
             
         <div className='flex flex-wrap place-content-center my-10 gap-4'>
+          <Link href="https://mjm03.fr/dv22andrade/public/index.php">
             <div className='relative place-items-center w-36 h-20 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800'>
               <Image
               src="/images/logo3pm1.png"
@@ -39,7 +41,9 @@ function Psection() {
               height={100}
               className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2"
               />
+             
             </div>
+            </Link>
             <div className='rounded w-36 h-20 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800'></div>
             <div className='rounded w-36 h-20 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800'></div>
             
