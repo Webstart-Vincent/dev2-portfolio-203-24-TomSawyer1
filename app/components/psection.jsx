@@ -28,7 +28,7 @@ function Psection() {
 
             <div className='grid grid-rows-2 '>
               <div className='flex sm:hidden place-content-center'></div>
-            <h1 className="font-sans  text-white mb-4 text-center text-3xl sm:hidden"> Mes Projets</h1>
+            <h1 className="font-sans  text-white mb-4 text-center text-3xl sm:hidden"> Mes Projets.</h1>
             
         <div className='flex flex-wrap place-content-center my-10 gap-4'>
             <div className='relative place-items-center w-36 h-20 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800'>
