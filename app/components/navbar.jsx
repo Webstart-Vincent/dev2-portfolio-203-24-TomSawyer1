@@ -12,7 +12,7 @@ const navlinks = [
   },
   {
     title: "Projets",
-    path : "#projets",
+    path : "works",
   },
   {
     title: "Github",

@@ -12,7 +12,7 @@ export default function Home() {
       <Navbar/>
       <div class='container space-y-32 mt-24 mx-auto px-12 py-4'>
       <Fsection />
-      <Psection />
+      
       </div>
       
       
