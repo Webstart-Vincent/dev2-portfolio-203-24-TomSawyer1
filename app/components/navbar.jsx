@@ -7,7 +7,7 @@ import { Bars3Icon , XmarkIcon} from "@heroicons/react/24/solid";
 
 const navlinks = [
   {
-    title: "About me",
+    title: "About me !",
     path : "#about",
   },
   {
