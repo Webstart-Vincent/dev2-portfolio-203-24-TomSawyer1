@@ -1,14 +1,13 @@
 "use client"
-
-import Link from 'next/link';
 import React, { useState } from 'react';
+import Link from 'next/link';
 import Nlink from './Nlink';
 import { Bars3Icon , XmarkIcon} from "@heroicons/react/24/solid";
 
 const navlinks = [
   {
     title: "About me !",
-    path : "#about",
+    path : "aboutme",
   },
   {
     title: "Projets",
@@ -16,11 +15,11 @@ const navlinks = [
   },
   {
     title: "Github",
-    path: "#git",
+    path: "https://github.com/TomSawyer1",
   },
   {
     title:"Contact",
-    path: "#contact",
+    path: "contacts",
   }
 ]
 
@@ -30,7 +29,7 @@ function Navbar() {
     <nav className='fixed top-0 left-0 right-0 z-10 bg-black bg-opacity-90'>
         <div className='flex flex-wrap items-center justify-between mx-auto p-8 py-4'>
         <Link href={"/"} className=' font-sans text-2xl md:text-5xl  font-semibold text-transparent bg-clip-text bg-gradient-to-br from-blue-400 via-blue-800 to-red-500'>TAVS</Link>
-       {/*  <div className='mobile-menu block md:hidden'>
+       {  <div className='mobile-menu block md:hidden'>
            { navbarOpen ? 
             <button className='text-slate-200 flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white'>
                <Bars3Icon className='h-5 w-5'/> </button>
@@ -38,7 +37,7 @@ function Navbar() {
            <button className='text-slate-200 flex items-center px-3 py-2 border rounded border-slate-200 hover:text-white hover:border-white'>
            <XmarkIcon className='h-5 w-5'/> </button>
 } 
-        </div> */}
+        </div> }
         <div className='menu hidden md:block md:w-auto' id='navbar'>
             <ul className=' flex p-4 md:p-0 md:flex-row md:space-x-8 mt-0'>
                 {
