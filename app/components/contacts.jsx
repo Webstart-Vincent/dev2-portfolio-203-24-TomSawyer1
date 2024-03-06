@@ -4,6 +4,8 @@ import Image from "next/image";
 
 
 function Contacts() {
-
+    return(
+<div></div>
+    );
 };
 export default Contacts;

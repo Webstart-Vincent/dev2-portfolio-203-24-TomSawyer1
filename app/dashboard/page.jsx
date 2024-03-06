@@ -11,14 +11,22 @@ const Dashboard = () => {
 
   // Vérifier si la session est définie
   const username = session?.user?.name;
-
-  // Afficher le contenu du tableau de bord
-  return (
-    <>
-      <h1>Tableau de bord</h1>
-      <p>Utilisateur : {username !== undefined ? username : 'Pas d\'utilisateur'}</p>
-    </>
-  );
+  if (username) {
+    // Afficher le contenu du tableau de bord
+    return (
+      <>
+        <h1>Tableau de bord</h1>
+        <p>Utilisateur : {username !== undefined ? username : 'Pas d\'utilisateur'}</p>
+      </>
+    );
+  } else {
+    // Redirection côté client vers la page d'accueil
+    if (typeof window !== 'undefined') {
+      window.location.href = '/';
+    }
+    // En attendant la redirection, afficher un contenu ou une page de chargement
+    return <p>Redirection vers la page d'accueil...</p>;
+  }
 };
 
 export default Dashboard;
