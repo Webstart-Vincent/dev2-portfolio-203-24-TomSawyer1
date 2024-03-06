@@ -1,8 +1,8 @@
 import Image from 'next/image'
-import Fsection from './components/fsection'
-import Navbar from './components/navbar';
-import Psection from './components/psection';
-import Footer from './components/footer';
+import Fsection from '../components/fsection'
+import Navbar from '../components/navbar';
+import Psection from '../components/psection';
+import Footer from '../components/footer';
 import { Container } from 'postcss';
 
 export default function Home() {

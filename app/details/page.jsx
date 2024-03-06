@@ -1,6 +1,6 @@
-import Navbar from '../components/navbar';
-import Detail from '../components/detail';
-import Footer from '../components/footer';
+import Navbar from '@/components/navbar';
+import Detail from '@/components/detail';
+import Footer from '@/components/footer';
 
 export default function Details() {
     return (

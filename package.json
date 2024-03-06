@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@heroicons/react": "^2.1.1",
+    "@heroicons/react": "^1.0.6",
     "@heroicons/vue": "^2.1.1",
     "@iconify/icons-heroicons-solid": "^1.2.6",
     "@react-icons/all-files": "^4.1.0",
