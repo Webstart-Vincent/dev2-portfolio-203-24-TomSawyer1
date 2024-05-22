@@ -9,15 +9,17 @@ export default async function handler(req, res) {
 
   if (method === 'POST') {
     try {
-      const project = await Project.create(body); // creer un projet
+      const project = await Project.create(body); // créer un projet
       res.status(201).json({ success: true, data: project });
     } catch (error) {
       res.status(400).json({ success: false, error: error.message });
     }
   } 
-
+  
+// request qui permet de recup tt les projets 
   if (method === 'GET') {
     try {
+      // find ca sert a tt recup
       const projects = await Project.find({}); // Récupère tous les projets
       res.status(200).json({ success: true, data: projects });
     } catch (error) {
