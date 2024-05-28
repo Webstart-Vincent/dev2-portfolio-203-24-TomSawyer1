@@ -3,8 +3,8 @@
 import Navbar from '@/components/navbar';
 import Detail from '@/components/detail';
 import Footer from '@/components/footer';
-import Project from '@/app/models/Project';
-import dbConnect from '@/app/lib/mongoose';
+import Project from '@/models/Project';
+import dbConnect from '@/lib/mongoose';
 // je recup un unique projet grace a un slug
 async function getProject(slug) {
   await dbConnect();
