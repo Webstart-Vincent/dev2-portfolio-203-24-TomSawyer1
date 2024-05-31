@@ -98,7 +98,7 @@ function Contacts() {
       <div>
         <div className="max-w-md mx-auto mt-10 p-4 rounded-lg shadow-md">
           <div className="mb-6">
-            <h2 className="text-xl text-white font-semibold mb-4">Your email</h2>
+            <h2 className="text-xl text-white font-semibold mb-4">Votre email</h2>
             <input
               type="email"
               id="email"
@@ -111,7 +111,7 @@ function Contacts() {
             />
           </div>
           <div className="mb-6">
-            <h2 className="text-xl text-white font-semibold mb-4">Name</h2>
+            <h2 className="text-xl text-white font-semibold mb-4">Nom</h2>
             <input
               type="text"
               id="name"
@@ -124,7 +124,7 @@ function Contacts() {
             />
           </div>
           <div className="mb-6">
-            <h2 className="text-xl text-white font-semibold mb-4">Subject</h2>
+            <h2 className="text-xl text-white font-semibold mb-4">Sujet</h2>
             <input
               type="text"
               id="subject"
@@ -152,9 +152,9 @@ function Contacts() {
             onClick={handleSubmit}
             className="w-full py-2 mt-4 bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 text-white rounded-lg hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50"
           >
-            {loading ? 'Sending...' : 'Send Me'}
+            {loading ? 'Sending...' : 'Envoyer'}
           </button>
-          {success && <p className="text-green-500 mt-4">Message sent successfully!</p>}
+          {success && <p className="text-green-500 mt-4">Message bien envoyer!</p>}
           {error && <p className="text-red-500 mt-4">{error}</p>}
         </div>
       </div>

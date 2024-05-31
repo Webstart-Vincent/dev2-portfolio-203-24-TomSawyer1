@@ -21,7 +21,7 @@ const Fsection = () => {
           1000, // Temps en seconde
           "Etudiant",
           1000,
-          "BMW M3",
+          "J'aime les BMW M3",
           1000,
         ]}   
         wrapper='span'
@@ -34,7 +34,7 @@ const Fsection = () => {
         
 
         <p className='text-[#ADB7BE] text-base sm:text-lg  mb-6 lg:text-xl'>
-          Oui Oui c'est moi Thomas avec cette phrase que j'ai ecrit a la main  dsdsd 
+        Venez découvrir ma vie de développeur ainsi de ce que j'aime faire dans ma vie très passionnante à travers mes projets et mes hobby que je partage part mes photo
         </p>
         
         <div>
