@@ -33,9 +33,8 @@ const Fsection = () => {
 
         
 
-        <p className='text-[#ADB7BE] text-base sm:text-lg  mb-6 lg:text-xl'>
-        Venez découvrir ma vie de développeur ainsi de ce que j'aime faire dans ma vie très passionnante à travers mes projets et mes hobby que je partage part mes photo
-        </p>
+        <p className='text-[#ADB7BE] text-base sm:text-lg  mb-6 lg:text-lg'>
+         Venez découvrir ma vie de développeur ainsi que de ce que j'aime faire dans ma vie très passionnante à travers mes projets et mes hobby que je partage avec mes photos.        </p>
         
         <div>
           <Link href={"contacts"}>
