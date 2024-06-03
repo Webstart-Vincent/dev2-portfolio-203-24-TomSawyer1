@@ -8,6 +8,9 @@ const projectSchema = new mongoose.Schema({
   description_seo: { type: String, required: true },
   title_seo: { type: String, required: true },
   site: { type: String, required: true },
+  image: { type: String, required: true },
+  //imagee : { type: String, required: true },
+
 }, { collection: 'projects' });
 
 const Project = mongoose.models.projects || mongoose.model('projects', projectSchema);
