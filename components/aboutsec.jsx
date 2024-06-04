@@ -40,7 +40,7 @@ const TAB_DATA = [
     id:'experience',
     content:(
         <ul className='list-disc pl-2'>
-            <li>Apprenti Developpeur back-end chez Europcar Mobility Group 2022-2024</li>
+            <li>Alternant Developpeur back-end chez Europcar Mobility Group 2022-2024</li>
 
         </ul>
     )

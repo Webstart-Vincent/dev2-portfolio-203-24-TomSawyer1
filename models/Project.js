@@ -9,7 +9,7 @@ const projectSchema = new mongoose.Schema({
   title_seo: { type: String, required: true },
   site: { type: String, required: true },
   image: { type: String, required: true },
-  //imagee : { type: String, required: true },
+  imagee : { type: String, required: true },
 
 }, { collection: 'projects' });
 
