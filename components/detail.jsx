@@ -6,7 +6,7 @@ import { CldImage } from 'next-cloudinary';
 // on recup le tableau
 function Detail({ project }) {
   return (
-    <div className="grid grid-cols-1 sm:grid-cols-2 h-auto bg-blue-300">
+    <div className="grid grid-cols-1 sm:grid-cols-2 h-auto">
       <div>
       <CldImage
             src={`https://res.cloudinary.com/${process.env.NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME}/image/upload/v1717446005/${project.imagee}.png`}
