@@ -25,7 +25,7 @@ function Detail({ project }) {
         <div>
           <Link href={project.site} passHref>
             <button className='px-1 py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-blue-400 via-blue-800 to-red-500 hover:bg-slate-800 text-white mt-3'>
-              <span className='block bg-black hover:bg-slate-800 rounded-full py-3 px-2'>Aller sur le site</span>
+              <span className='block bg-white hover:bg-slate-800 rounded-full py-3 px-2'>Aller sur le site</span>
             </button>
           </Link>
         </div>
